@@ -1,0 +1,56 @@
+body {
+  background-color:#BCE9B7;
+}
+
+.profile_img {
+  text-align: center;
+  margin-top: 80px;
+}
+
+img {
+  display: inline-block; 
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blog_link{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.git_link {
+  display: flex;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+ border-radius: 10px;
+ margin-top: 25px;
+ width:200px;
+ height:40px;
+ font-size: 20px;
+ font-family: "Ubuntu", sans-serif;
+}
+
+button:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+  font-weight: bold;
+  background-color: lightgray;
+}
